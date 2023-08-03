@@ -1215,6 +1215,11 @@ a.menu-toggle {
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
+
+.video-link{
+	margin: 20% 20% 10% 20%;
+}
+
 .intro-content .video-link a {
 	display: inline-block;
 	width: 90px;
