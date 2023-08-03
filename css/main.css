@@ -717,6 +717,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 
+ .p{
+	text-align: justify;
+	text-justify: inter-word;
+ }
+
 .section-intro {
 	max-width: 700px;
 	text-align: center;
@@ -1147,7 +1152,7 @@ a.menu-toggle {
  * ------------------------------------------------------------------- 
  */
 
-#intro {
+#inicio {
 	background: #14181E url(../images/intro-bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1245,7 +1250,7 @@ a.menu-toggle {
 	}
 }
 @media only screen and (max-width:768px) {
-	#intro {
+	#inicio {
 		min-height: 660px;
 	}
 	.intro-content h1 {
@@ -1258,7 +1263,7 @@ a.menu-toggle {
 	}
 }
 @media only screen and (max-width:600px) {
-	#intro {
+	#inicio {
 		min-height: 600px;
 	}
 	.intro-content h1 {
@@ -1276,7 +1281,7 @@ a.menu-toggle {
 	}
 }
 @media only screen and (max-width:400px) {
-	#intro {
+	#inicio {
 		min-height: 550px;
 	}
 	.intro-content h1 {
@@ -1408,7 +1413,7 @@ a.menu-toggle {
  * ------------------------------------------------------------------- 
  */
 
-#process {
+#empresa {
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
@@ -1486,7 +1491,7 @@ a.menu-toggle {
 	}
 }
 @media only screen and (max-width:768px) {
-	#process {
+	#empresa {
 		padding-bottom: 27rem;
 	}
 	.process-content .right-side, .process-content .left-side {
@@ -1508,7 +1513,7 @@ a.menu-toggle {
 	}
 }
 @media only screen and (max-width:400px) {
-	#process {
+	#empresa {
 		padding-bottom: 21rem;
 	}
 	.process-content .image-part {
@@ -1526,7 +1531,7 @@ a.menu-toggle {
  * ------------------------------------------------------------------- 
  */
 
-#features {
+#produtos {
 	background: #090909 url(../images/features-bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1535,13 +1540,13 @@ a.menu-toggle {
 	padding-bottom: 12rem;
 	color: white;
 }
-#features .section-intro h1 {
+#produtos .section-intro h1 {
 	color: white;
 }
-#features .section-intro h5 {
+#produtos .section-intro h5 {
 	color: rgba(255, 255, 255, 0.5);
 }
-#features .section-intro p {
+#produtos .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
 .features-content {
@@ -1558,6 +1563,7 @@ a.menu-toggle {
 .features-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
+	color: #ffca00;
 }
 .features-list .icon i {
 	font-size: 4.8rem;
@@ -1565,7 +1571,7 @@ a.menu-toggle {
 .features-list .h05 {
 	font-size: 1.7rem;
 	line-height: 1.765;
-	color: #05bca9;
+	color: #ffca00;
 	margin-bottom: 1.8rem;
 }
 
@@ -1602,7 +1608,7 @@ a.menu-toggle {
  * ------------------------------------------------------------------- 
  */
 
-#pricing {
+#estrutura {
 	background: #EAEAED;
 	padding-top: 12rem;
 	padding-bottom: 9.6rem;
