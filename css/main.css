@@ -1764,7 +1764,7 @@ a.menu-toggle {
  * ------------------------------------------------------------------- 
  */
 
-#testimonials {
+#galeria {
 	background: #FFFFFF;
 	padding-top: 10.2rem;
 	padding-bottom: 12rem;
@@ -1774,13 +1774,13 @@ a.menu-toggle {
 	overflow: hidden;
 	text-align: center;
 }
-#testimonials .h01 {
+#galeria .h01 {
 	padding-bottom: 2.1rem;
 	margin-bottom: 3.6rem;
 	position: relative;
 	color: #252525;
 }
-#testimonials .h01::after {
+#galeria .h01::after {
 	display: block;
 	background-color: #05bca9;
 	width: 120px;
@@ -1791,7 +1791,7 @@ a.menu-toggle {
 	bottom: 0;
 	margin-left: -60px;
 }
-#testimonials .flex-container {
+#galeria .flex-container {
 	width: 80%;
 	max-width: 800px;
 	margin: 0 auto;
@@ -1855,19 +1855,19 @@ a.menu-toggle {
 }
 
 /* control nav */
-#testimonials .flex-control-nav {
+#galeria .flex-control-nav {
 	width: 100%;
 	text-align: center;
 	display: block;
 	position: absolute;
 	bottom: -42px;
 }
-#testimonials .flex-control-nav li {
+#galeria .flex-control-nav li {
 	margin: 0 6px;
 	display: inline-block;
 	zoom: 1;
 }
-#testimonials .flex-control-paging li a {
+#galeria .flex-control-paging li a {
 	width: 15px;
 	height: 15px;
 	display: block;
@@ -1878,32 +1878,32 @@ a.menu-toggle {
 	text-shadow: none;
 	color: transparent;
 }
-#testimonials .flex-control-paging li a:hover {
+#galeria .flex-control-paging li a:hover {
 	border: 4px solid #05bca9;
 }
-#testimonials .flex-control-paging li a.flex-active {
+#galeria .flex-control-paging li a.flex-active {
 	background: #05bca9;
 	border-color: #05bca9;
 	cursor: default;
 }
 
 /* direction nav */
-#testimonials .flex-direction-nav li {
+#galeria .flex-direction-nav li {
 	padding: 0;
 	z-index: 500;
 	position: absolute;
 	bottom: 0;
 	margin-bottom: -57px;
 }
-#testimonials .flex-direction-nav li a {
+#galeria .flex-direction-nav li a {
 	display: block;
 	opacity: .8;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
 }
-#testimonials .flex-direction-nav li a.flex-prev::before,
-#testimonials .flex-direction-nav li a.flex-next::after {
+#galeria .flex-direction-nav li a.flex-prev::before,
+#galeria .flex-direction-nav li a.flex-next::after {
 	display: block;
 	background: #EAEAED;
 	color: #737373;
@@ -1920,21 +1920,21 @@ a.menu-toggle {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-#testimonials .flex-direction-nav li a.flex-prev::before {
+#galeria .flex-direction-nav li a.flex-prev::before {
 	content: "\f2ca";
 }
-#testimonials .flex-direction-nav li a.flex-next::after {
+#galeria .flex-direction-nav li a.flex-next::after {
 	content: "\f30f";
 }
-#testimonials .flex-direction-nav li a.flex-next:hover::after,
-#testimonials .flex-direction-nav li a.flex-prev:hover::before {
+#galeria .flex-direction-nav li a.flex-next:hover::after,
+#galeria .flex-direction-nav li a.flex-prev:hover::before {
 	background: #05bca9;
 	color: #FFFFFF;
 }
-#testimonials .flex-direction-nav li.flex-nav-prev {
+#galeria .flex-direction-nav li.flex-nav-prev {
 	left: 0;
 }
-#testimonials .flex-direction-nav li.flex-nav-next {
+#galeria .flex-direction-nav li.flex-nav-next {
 	right: 0;
 }
 
@@ -1945,7 +1945,7 @@ a.menu-toggle {
  */
 
 @media only screen and (max-width:1024px) {
-	#testimonials .flex-container {
+	#galeria .flex-container {
 		max-width: 600px;
 	}
 	#testimonial-slider p {
@@ -1953,7 +1953,7 @@ a.menu-toggle {
 	}
 }
 @media only screen and (max-width:768px) {
-	#testimonials .flex-container {
+	#galeria .flex-container {
 		width: 90%;
 	}
 	#testimonial-slider p {
@@ -1961,7 +1961,7 @@ a.menu-toggle {
 	}
 }
 @media only screen and (max-width:600px) {
-	#testimonials .flex-container {
+	#galeria .flex-container {
 		width: 95%;
 	}
 	#testimonial-slider p {
@@ -1972,7 +1972,7 @@ a.menu-toggle {
 	}
 }
 @media only screen and (max-width:400px) {
-	#testimonials .flex-container {
+	#galeria .flex-container {
 		width: auto;
 	}
 	#testimonial-slider p {
@@ -2060,7 +2060,7 @@ a.menu-toggle {
  * ------------------------------------------------------------------- 
  */
 
-#cta {
+#contatos {
 	background: #05bca9;
 	padding-top: 7.2rem;
 	padding-bottom: 9rem;
