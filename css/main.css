@@ -869,7 +869,7 @@ header .logo a {
 }
 .sticky {
 	position: fixed;
-	background: #14171c;
+	background: black;
 	top: 0;
 }
 .sticky .logo a {
@@ -1195,7 +1195,7 @@ a.menu-toggle {
 	-webkit-transform: translateY(-1.2rem);
 	-ms-transform: translateY(-1.2rem);
 	transform: translateY(-1.2rem);
-	background-color: black;
+	background-color: #15171c;
 }
 .intro-content h1 {
 	color: #FFFFFF;
@@ -1547,7 +1547,7 @@ a.menu-toggle {
  */
 
 #produtos {
-	background: #090909 url(../images/features-bg.jpg) no-repeat center;
+	background-color: #15171c;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
